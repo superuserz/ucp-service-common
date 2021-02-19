@@ -1,0 +1,13 @@
+D:\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\responses\BaseResponse.java
+D:\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\exception\MessageSeverity.java
+D:\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\logging\LoggerInterceptor.java
+D:\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\exception\ResponseMessage.java
+D:\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\logging\LoggerConstant.java
+D:\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\constant\QueueConstants.java
+D:\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\exception\UCPException.java
+D:\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\UcpServiceCommonApplication.java
+D:\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\logging\RequestLoggingInterceptor.java
+D:\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\exception\ExceptionConstants.java
+D:\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\logging\LoggerProperties.java
+D:\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\logging\LoggerConfiguration.java
+D:\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\request\AddRatingRequest.java

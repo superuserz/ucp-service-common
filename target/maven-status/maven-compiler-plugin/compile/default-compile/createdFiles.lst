@@ -1,0 +1,13 @@
+com\nagp\ucp\common\logging\LoggerConstant.class
+com\nagp\ucp\common\exception\ResponseMessage.class
+com\nagp\ucp\common\responses\BaseResponse.class
+com\nagp\ucp\common\exception\MessageSeverity.class
+com\nagp\ucp\common\logging\LoggerConfiguration.class
+com\nagp\ucp\common\logging\LoggerProperties.class
+com\nagp\ucp\common\logging\RequestLoggingInterceptor.class
+com\nagp\ucp\common\constant\QueueConstants.class
+com\nagp\ucp\common\exception\ExceptionConstants.class
+com\nagp\ucp\common\logging\LoggerInterceptor.class
+com\nagp\ucp\common\exception\UCPException.class
+com\nagp\ucp\common\request\AddRatingRequest.class
+com\nagp\ucp\common\UcpServiceCommonApplication.class
