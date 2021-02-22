@@ -1,11 +1,13 @@
 com\nagp\ucp\common\logging\LoggerConstant.class
 com\nagp\ucp\common\enums\BookingStatusEnum.class
 com\nagp\ucp\common\enums\PaymentModeEnum.class
-com\nagp\ucp\common\exception\ResponseMessage.class
+com\nagp\ucp\common\responses\ResponseMessage.class
 com\nagp\ucp\common\responses\BaseResponse.class
+com\nagp\ucp\common\exception\GlobalExceptionHandler.class
 com\nagp\ucp\common\exception\MessageSeverity.class
 com\nagp\ucp\common\logging\LoggerConfiguration.class
 com\nagp\ucp\common\logging\LoggerProperties.class
+com\nagp\ucp\common\responses\BaseErrorResponse.class
 com\nagp\ucp\common\logging\RequestLoggingInterceptor.class
 com\nagp\ucp\common\constant\QueueConstants.class
 com\nagp\ucp\common\enums\PaymentStatusEnum.class

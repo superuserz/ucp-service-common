@@ -1,6 +1,8 @@
-package com.nagp.ucp.common.exception;
+package com.nagp.ucp.common.responses;
 
 import java.io.Serializable;
+
+import com.nagp.ucp.common.exception.MessageSeverity;
 
 public class ResponseMessage implements Serializable {
 

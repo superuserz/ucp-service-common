@@ -1,68 +1,33 @@
 package com.nagp.ucp.common.exception;
 
-import java.util.List;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 /**
  * This class extends the base class {@link UCPBaseException} for providing the
  * framework for checked exception handling. The application should throw this
  * exception in case of business fault.
  */
-public class UCPException extends Exception {
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+public class UCPException extends RuntimeException {
 
 	/** The Constant serialVersionUID. */
 	private static final long serialVersionUID = 1393115699347678628L;
 
-	private Throwable cause;
-
 	private String errorCode;
 
-	private List<ResponseMessage> messages;
+	private String message;
 
-	/**
-	 * @param message
-	 * @param errorCode
-	 */
-	public UCPException(final String message, final String errorCode) {
-		super(message);
+	private String details;
+
+	public UCPException(String errorCode, String message) {
+		super();
 		this.errorCode = errorCode;
-
+		this.message = message;
 	}
 
-	/**
-	 * @param message
-	 * @param cause
-	 */
-	public UCPException(final String message, final Throwable cause) {
-		super(message, cause);
-	}
-
-	/**
-	 * @param message
-	 */
-	public UCPException(final String message) {
-		super(message);
-	}
-
-	/**
-	 * @param message
-	 * @param cause
-	 * @param errorCode
-	 * @param messages
-	 */
-	public UCPException(final String message, final Throwable cause, final String errorCode,
-			final List<ResponseMessage> messages) {
-		super(message, cause);
-		this.errorCode = errorCode;
-		this.messages = messages;
-	}
-
-	/**
-	 * @param message
-	 * @param cause
-	 * @param errorCode
-	 */
-	public UCPException(final String message, final Throwable cause, final String errorCode) {
-		super(message, cause);
-		this.errorCode = errorCode;
-	}
 }
