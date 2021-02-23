@@ -4,6 +4,10 @@ public enum BookingStatusEnum {
 
 	NEW("NEW"),
 
+	ASSIGNED("ASSIGNED"),
+
+	ACCEPTED("ACCEPTED"),
+
 	INPROCESS("INPROCESS"),
 
 	COMPLETED("COMPLETED"),
