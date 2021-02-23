@@ -17,6 +17,7 @@ com\nagp\ucp\common\constant\QueueConstants.class
 com\nagp\ucp\common\enums\UserTypeEnum.class
 com\nagp\ucp\common\enums\PaymentStatusEnum.class
 com\nagp\ucp\common\request\UpdateBookingStatusRequest.class
+com\nagp\ucp\common\request\NotificationPayload.class
 com\nagp\ucp\common\request\BookingCommentRequest.class
 com\nagp\ucp\common\exception\ExceptionConstants.class
 com\nagp\ucp\common\request\AddRatingRequest.class

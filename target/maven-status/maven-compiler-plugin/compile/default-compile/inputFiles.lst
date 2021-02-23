@@ -5,6 +5,7 @@ D:\nagarro\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\
 D:\nagarro\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\logging\LoggerProperties.java
 D:\nagarro\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\constant\QueueConstants.java
 D:\nagarro\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\exception\ExceptionConstants.java
+D:\nagarro\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\request\NotificationPayload.java
 D:\nagarro\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\enums\UserTypeEnum.java
 D:\nagarro\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\exception\GlobalExceptionHandler.java
 D:\nagarro\nagp-assignment\ucp-service-common\src\main\java\com\nagp\ucp\common\request\AddBookingRequest.java
